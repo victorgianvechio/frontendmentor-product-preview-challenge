@@ -12,12 +12,17 @@ body {
   flex-direction: column;
 }
 
-img {
+.product-img {
   height: 500px;
   width: 320px;
   border-radius: 10px;
   margin: 0;
   padding: 0;
+}
+
+.btn-icon {
+  width: 15px;
+  margin-right: 10px;
 }
 
 main {
@@ -94,6 +99,9 @@ button {
   border-radius: 10px;
   height: 50px;
   margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 button:hover {
